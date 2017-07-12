@@ -1,0 +1,25 @@
+{
+  "name": "apt_searcher",
+  "version": "1.0.0",
+  "description": "Fetch apt prices based on move in date for multiple communities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Schultz",
+  "license": "ISC",
+  "dependencies": {
+    "highcharts": "^5.0.12",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0"
+  }
+}
