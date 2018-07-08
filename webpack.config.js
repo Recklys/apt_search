@@ -17,7 +17,8 @@ module.exports = {
             use: [{
                 loader: 'file-loader',
                 options: {
-                    outputPath: 'assets/img/'
+                    outputPath: 'img/',
+                    publicPath: 'dist/img'
                 }
             }]
         }]
