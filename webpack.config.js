@@ -3,6 +3,11 @@ var path = require('path'),
 
 module.exports = {
     entry: './src/index.js',
+    output: {
+      path: path.resolve(__dirname, 'dist'),
+      filename: 'bundle.js'
+    },
+    mode: 'development',
     module: {
         rules: [{
             test: /\.sass$/,
@@ -16,9 +21,6 @@ module.exports = {
                 }
             }]
         }]
-    },
-    output: {
-        filename: './assets/bundle.js'
     },
     plugins: [
         new webpack.ProvidePlugin({

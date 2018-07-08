@@ -16,6 +16,6 @@
             </div>
         </div>
 
-    <script type="text/javascript" src="assets/bundle.js"></script>
+    <script type="text/javascript" src="dist/bundle.js"></script>
     </body>
 </html>
